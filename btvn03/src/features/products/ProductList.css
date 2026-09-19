@@ -1,0 +1,57 @@
+.product-list ul,
+.cart-summary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-item {
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.product-item > div {
+  display: grid;
+  gap: 4px;
+}
+
+.product-name {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.product-price,
+.item-price {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.btn-add,
+.btn-remove {
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+  padding: 8px 12px;
+}
+
+.btn-add {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-add:hover {
+  background: var(--accent-dark);
+}
+
+.status {
+  padding: 24px 0;
+}
+
+.error {
+  color: var(--error);
+}
